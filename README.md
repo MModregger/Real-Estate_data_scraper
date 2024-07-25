@@ -25,5 +25,5 @@ The price data is aggregated by district, the code calculates the average rent p
 <img width="835" alt="Screenshot 2024-07-25 at 14 18 36" src="https://github.com/user-attachments/assets/ef2f64b9-6d0b-41d1-b657-d004fe631264">
 
 # Control
-The data scraping code uses certain HTML classes to extract the data from the website. Where possible I tried to avoid this method and program the code to extract the data through pattern recognition because the name opf the classes might change with time. To check whether the classes that are being used by the data scraping code are still actual I wrote a script that goes through the Immobiliare.it website and checks whether the classes used still exist. The only input the code needs is an example of sale/rent ad.
+The data scraping code uses certain HTML classes to extract the data from the website. Where possible I tried to avoid this method and program the code to extract the data through pattern recognition because the name of the classes might change. To check whether the classes that are being used by the data scraping code are still actual, I wrote a script that goes through the Immobiliare.it website and checks whether the classes used still exist. The only input the code needs is an example of sale/rent ad.
 
