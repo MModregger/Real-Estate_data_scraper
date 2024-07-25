@@ -6,7 +6,7 @@ Real-Estate_data_scraper is a project that uses Python to scrape data from a pop
 The main goal of this project is to access data that would otherwise require paying an API service, in order to get a glimpse of how the real estate market in a certain area is behaving. 
 
 # Data Scraping
-The code scraps the data directly from Immobiliare.it, it asks the user to input the name of a city and then proceeds to scrap and save the data from rent and sale ads. 
+The code scraps the data directly from Immobiliare.it, it asks the user to input the name of a city and then proceeds to scrap and save the data from rent and sale ads. The data is then saved in an excel file, used datasource for the dashboard, as well as a supporting document for the user to go through the data.
 The data collected is supposed to be a relevant driver for the price of rent/sale and is the following:
 1. Rent or sale price of the property 
 2. Size of the property
@@ -15,6 +15,7 @@ The data collected is supposed to be a relevant driver for the price of rent/sal
 5. Presence of a private parking spot/garage
 6. Energy consumption
 7. Energy class
+8. Link to the ad 
  
 # Dashboard
 The Dashboard has the function of giving an immediate representation of the data. 
